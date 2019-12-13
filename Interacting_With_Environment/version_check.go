@@ -13,5 +13,5 @@ const info = `
 
 
 func main() {
-	log.Printf(info, "version_check", runtime.Version())
+	log.Printf(info, "version_check ", runtime.Version())
 }
